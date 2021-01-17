@@ -1,86 +1,6 @@
          /* Reset css */
-         
-         html,
-         body,
-         div,
-         span,
-         applet,
-         object,
-         iframe,
-         h1,
-         h2,
-         h3,
-         h4,
-         h5,
-         h6,
-         p,
-         blockquote,
-         pre,
-         a,
-         abbr,
-         acronym,
-         address,
-         big,
-         cite,
-         code,
-         del,
-         dfn,
-         em,
-         img,
-         ins,
-         kbd,
-         q,
-         s,
-         samp,
-         small,
-         strike,
-         strong,
-         sub,
-         sup,
-         tt,
-         var,
-         b,
-         u,
-         i,
-         center,
-         dl,
-         dt,
-         dd,
-         ol,
-         ul,
-         li,
-         fieldset,
-         form,
-         label,
-         legend,
-         table,
-         caption,
-         tbody,
-         tfoot,
-         thead,
-         tr,
-         th,
-         td,
-         article,
-         aside,
-         canvas,
-         details,
-         embed,
-         figure,
-         figcaption,
-         footer,
-         header,
-         hgroup,
-         menu,
-         nav,
-         output,
-         ruby,
-         section,
-         summary,
-         time,
-         mark,
-         audio,
-         video {
+
+         html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
              margin: 0;
              padding: 0;
              border: 0;
@@ -88,49 +8,35 @@
              font: inherit;
              vertical-align: baseline;
          }
-         
-         article,
-         aside,
-         details,
-         figcaption,
-         figure,
-         footer,
-         header,
-         hgroup,
-         menu,
-         nav,
-         section {
+
+         article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
              display: block;
          }
-         
+
          body {
              line-height: 1;
          }
-         
-         ol,
-         ul {
+
+         ol, ul {
              list-style: none;
          }
-         
-         blockquote,
-         q {
+
+         blockquote, q {
              quotes: none;
          }
-         
-         blockquote:before,
-         blockquote:after,
-         q:before,
-         q:after {
+
+         blockquote:before, blockquote:after, q:before, q:after {
              content: '';
              content: none;
          }
-         
+
          table {
              border-collapse: collapse;
              border-spacing: 0;
          }
+
          /* Reset css End */
-         
+
          header {
              height: 500px;
              margin: 0 auto;
@@ -139,26 +45,26 @@
              padding-right: 30px;
              padding-top: 20px;
          }
-         
+
          .logo {
              width: 87px;
              height: 44px;
              float: left;
          }
-         
+
          .navbar {
              float: right;
          }
-         
+
          .first :nth-child(5) {
              border-right: 1px solid #00c6bf;
              height: 40px;
          }
-         
+
          .first :nth-child(6) {
              padding-left: 24px;
          }
-         
+
          .login {
              text-decoration: none;
              width: 110px;
@@ -174,7 +80,7 @@
              cursor: pointer;
              outline: none;
          }
-         
+
          .menu_item {
              text-decoration: none;
              width: 57px;
@@ -187,23 +93,23 @@
              text-align: left;
              position: relative;
          }
-         
+
          .menu_item :hover {
              color: #ff3150;
          }
-         
+
          .menu_item :last-child {
              width: 1px;
              height: 25px;
              background-color: #00c6bf;
          }
-         
+
          li {
              display: inline;
              text-decoration: none;
              padding-right: 40px;
          }
-         
+
          h1 {
              padding-top: 156px;
              clear: both;
@@ -214,7 +120,7 @@
              line-height: 27px;
              text-align: center;
          }
-         
+
          .info {
              padding-top: 8px;
              color: #a8b9c0;
@@ -224,7 +130,7 @@
              line-height: 27px;
              text-align: center;
          }
-         
+
          .start {
              text-decoration: none;
              width: 190px;
@@ -240,16 +146,16 @@
              cursor: pointer;
              outline: none;
          }
-         
+
          .get {
              text-align: center;
              padding-top: 33px;
          }
-         
+
          .services_1 {
              text-align: center;
          }
-         
+
          .services_2 {
              clear: both;
              text-align: center;
@@ -258,20 +164,20 @@
              padding-top: 20px;
              overflow: auto;
          }
-         
+
          .services_3 {
              clear: both;
              text-align: center;
              background-color: #eff7fa;
              padding-top: 20px;
          }
-         
+
          .composite {
              width: 78px;
              height: 58px;
              margin: 55px auto;
          }
-         
+
          h2 {
              color: #1a2940;
              font-family: 'Roboto', sans-serif;
@@ -280,7 +186,7 @@
              line-height: 27px;
              text-align: center;
          }
-         
+
          .under_text {
              color: #a8b9c0;
              font-family: 'Roboto', sans-serif;
@@ -291,7 +197,31 @@
              text-align: center;
              text-transform: uppercase;
          }
-         
+
+         .text_art {
+             width: 299px;
+             height: 73px;
+             color: #a8b9c0;
+             font-family: Roboto;
+             font-size: 15px;
+             font-weight: 400;
+             line-height: 30px;
+             text-align: center;
+         }
+
+         .text {
+             width: 570px;
+             height: 47px;
+             color: #a8b9c0;
+             font-family: 'Roboto', sans-serif;
+             font-size: 15px;
+             font-weight: 300;
+             line-height: 27px;
+             padding-top: 10px;
+             text-align: center;
+             margin: 0 auto;
+         }
+
          h3 {
              color: #ffc501;
              font-family: 'Roboto', sans-serif;
@@ -301,43 +231,65 @@
              text-align: center;
              text-transform: uppercase;
          }
-         
+
          .art {
              margin-left: 19%;
              margin-top: 5%;
              text-align: center;
          }
-         
+
          .article_1 {
              float: left;
              width: 300px;
              height: 355px;
              padding-right: 10px;
          }
-         
+
          .article_2 {
              float: left;
              width: 300px;
              height: 355px;
              padding-right: 10px;
          }
-         
+
          .article_3 {
              float: left;
              width: 300px;
              height: 355px;
              padding-right: 10px;
          }
-         
+
          .nav2 {
              text-align: center;
              margin-top: 50px;
          }
-         
+
          .mask {
              width: 270px;
              height: 200px;
              background-color: #00c6bf;
              opacity: 0.8;
              margin: 30px 30px;
+         }
+
+         .retina {
+             clear: both;
+             margin-top: 60px;
+         }
+
+         .text_retina {
+             float: left;
+             width: 376px;
+             height: 137px;
+             color: #a8b9c0;
+             font-family: Roboto;
+             font-size: 15px;
+             font-weight: 300;
+             vertical-align: middle;
+             text-align: left;
+             
+         }
+
+         .MacBook {
+             float: right;
          }
