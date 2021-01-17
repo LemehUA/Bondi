@@ -202,7 +202,7 @@
              width: 299px;
              height: 73px;
              color: #a8b9c0;
-             font-family: Roboto;
+             font-family: 'Roboto', sans-serif;
              font-size: 15px;
              font-weight: 400;
              line-height: 30px;
@@ -272,6 +272,15 @@
              margin: 30px 30px;
          }
 
+         .about_us {
+             height: 820px;
+             margin: 0 auto;
+             background-color: white;
+             padding-left: 30px;
+             padding-right: 30px;
+             padding-top: 20px;
+         }
+
          .retina {
              clear: both;
              margin-top: 60px;
@@ -282,14 +291,60 @@
              width: 376px;
              height: 137px;
              color: #a8b9c0;
-             font-family: Roboto;
+             font-family: 'Roboto', sans-serif;
              font-size: 15px;
              font-weight: 300;
              vertical-align: middle;
              text-align: left;
-             
+             font-style: normal;
+             letter-spacing: normal;
+             line-height: normal;
+         }
+
+         .text_area_retina {
+             padding-top: 20px;
          }
 
          .MacBook {
              float: right;
+             padding-top: 60px;
+         }
+
+         .meet_the_team {
+             clear: both;
+             height: 712px;
+             margin: 0 auto;
+             background-color: #eff7fa;
+             padding-left: 30px;
+             padding-right: 30px;
+             padding-top: 110px;
+             
+         }
+
+         .meet_the_team_title {
+             color: #ffc501;
+             font-family: Roboto;
+             font-size: 35px;
+             font-weight: 500;
+             font-style: normal;
+             letter-spacing: normal;
+             line-height: 27px;
+             text-align: center;
+         }
+
+         .team {
+             padding-top: 60px;
+             text-align:  center;
+            
+             overflow: auto;
+            
+         }
+
+         .team_1 {
+             float: left;
+             margin-left: 30px;
+             margin-top: 30px;
+             width: 270px;
+             height: 389px;
+             background-color: #ffffff;
          }
